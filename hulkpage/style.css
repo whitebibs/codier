@@ -1,0 +1,102 @@
+
+@import url('https://fonts.cdnfonts.com/css/the-mighty-avengers');
+
+
+body {
+  background-color: rgb(21, 234, 21);
+  background-image: url(/wallpapersden.com_hulk-minimal_3840x2160.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  color: rgb(240, 248, 255);
+  font-family: "The Mighty Avengers";
+  font-size: xx-large;
+  overflow: hidden;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.nav a{
+  text-decoration: none;
+  color:rgb(21, 242, 21);
+  text-align: center;
+}
+.nav a:hover {
+  color: rgb(209, 13, 138);
+  transition: .2s;
+}
+.nav a:active{
+  color:blue;
+}
+
+h2 {
+  display: none;
+}
+
+.nav:hover {
+  color: rgb(6, 107, 6);
+  transition: 2s;
+}
+.text{
+  padding-top: 10%;
+  margin-left: .6rem;
+  color: rgb(128, 128, 128);
+  line-height: 2rem;
+  max-width: 30vw;
+}
+.text:hover {
+  color: rgb(199, 8, 8);
+  transition: 2s;
+}
+.footer a {
+  color: rgb(86, 2, 2);
+  background-color: rgb(8, 173, 8);
+  border: 2px solid rgb(99, 5, 5);
+  border-radius: 8px;
+  margin-left:auto;
+  margin-right: auto;
+  text-decoration: none;
+  padding:8px ;
+ 
+}
+.footer{
+  display: flex;
+  align-items: center;
+  padding:20px;
+ padding-left: 2px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
+a:hover {
+  color: rgb(244, 222, 222);
+}
+
+a:active {
+  color: rgb(1, 0, 0);
+}
+
+@media (max-width: 780px) {
+  .navbar {
+    display: none;
+  }
+
+  h2 {
+    color: rgb(5, 74, 5);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2:hover {
+    color: rgb(243, 30, 30);
+    transition: 1s;
+  }
+ 
+}
